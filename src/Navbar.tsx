@@ -14,9 +14,9 @@ const Navbar = () => {
   const hnadlecontact = () => navigate("/contact");
 
   return (
-    <>
-      <div className="flex items-center justify-between bg-black text-white h-[60px] px-8">
-        <div className="flex gap-2 items-center">
+    <div className="bg-black">
+      <div className="flex items-center justify-between bg-black text-white h-[60px] px-16 ">
+        <div className="flex gap-2 items-center m-8">
           <img src={logo} className="h-[20px]" alt="Logo" />
           <img src={Enver} className="h-[20px]" alt="Enver" />
         </div>
@@ -108,7 +108,7 @@ const Navbar = () => {
           </NavLink>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
